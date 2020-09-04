@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <Navigation />
-    <router-view />
-    <Footer />
+    <Lander />
+    <Portfolio />
   </div>
 </template>
 
 <script>
-import Navigation from "./components/includes/navigation";
-import Footer from "./components/includes/footer";
+import Lander from "../components/lander";
+import Portfolio from "../components/portfolio";
 
 export default {
-  name: "app",
+  name: "Home",
   components: {
-    Navigation,
-    Footer,
+    Lander,
+    Portfolio,
   },
 };
 </script>
